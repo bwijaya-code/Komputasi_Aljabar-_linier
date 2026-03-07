@@ -17,6 +17,13 @@ project:
         - file: KAL_A/Sistem Persamaan Linier.ipynb
     
 site:
+ nav:
+    - title: Home
+      url: index.md
+    - title: Materi
+      children:
+        - title: Aljabar Linier
+          url: KAL_A/KAL_A.ipynb
   template: book-theme
   # options:
   #   favicon: favicon.ico
